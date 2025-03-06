@@ -12,13 +12,13 @@
 ---
 
 ## 2. Thông tin bài tập
-- **Tên bài toán**: Knight’s Tour - Bài toán mã đi tuần
-Đề bài
-Trên bàn cờ NxN, con mã điểm (x, y). Tìm đường đi qua mọi ô đúng 1 lần.
-Gợi ý:
--Đệ quy thử từng nước đi.
--Nếu thăm hết mọi ô, thành công.
--Nếu đi vào ngõ cụt, quay lui.
+- **Tên bài toán**: Knight’s Tour - Bài toán mã đi tuần  
+Đề bài    
+Trên bàn cờ NxN, con mã điểm (x, y). Tìm đường đi qua mọi ô đúng 1 lần.  
+Gợi ý:  
+-Đệ quy thử từng nước đi.  
+-Nếu thăm hết mọi ô, thành công.  
+-Nếu đi vào ngõ cụt, quay lui.  
 ---
 ## 3. Hướng giải quyết bài toán
 ### a. Phân tích bài toán
