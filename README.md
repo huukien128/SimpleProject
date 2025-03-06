@@ -21,7 +21,7 @@ Gợi ý:
 -Nếu đi vào ngõ cụt, quay lui.  
 ---
 ## 3. Hướng giải quyết bài toán
-### a. Phân tích bài toán
+### a. Phân tích bài toán \
 (Mô tả sơ bộ về bài toán, yêu cầu đầu vào - đầu ra, các ràng buộc nếu có)
 1. Mô tả sơ bộ
 -Bài toán "Mã đi tuần" (Knight’s Tour) là một bài toán cổ điển trong lập trình và toán học. Trên một bàn cờ kích thước 𝑁×𝑁, một quân mã bắt đầu từ một vị trí cho trước và di chuyển theo quy tắc của quân mã trong cờ vua. Nhiệm vụ là tìm một lộ trình sao cho quân mã đi qua tất cả các ô trên bàn cờ đúng một lần.
