@@ -72,7 +72,27 @@ Gợi ý:
             → Nếu không, huỷ đánh dấu ô (quay lui)  
           
    - Nếu không còn nước đi hợp lệ nào:  
-             → Quay lui  
+             → Quay lui
+     
+3.Ưu và Nhược điểm của Backtracking trong Mã đi tuần
+
+ -Ưu điểm  
+ 
+ - Dễ hiểu, dễ triển khai: Chỉ kiểm tra nước đi hợp lệ và quay lui khi cần.  
+ - Tìm được mọi lời giải: Có thể tìm tất cả các cách đi hợp lệ.  
+ - Áp dụng cho mọi bàn cờ: Chạy được với mọi kích thước N×N.  
+ - Tiết kiệm bộ nhớ
+
+-Nhược điểm  
+
+ - Tốc độ chậm khi N lớn
+ - Dễ gặp ngõ cụt: Cần quay lui nhiều lần nếu không tối ưu.
+ - Không tối ưu: Thử nhiều nhánh trước khi tìm được lời giải.
+
+ -Tối ưu  
+ 
+  - Dùng Warnsdorff’s Rule để ưu tiên nước đi ít lựa chọn tiếp theo nhất.
+  - Tối ưu hóa bằng AI hoặc tìm kiếm heuristic.
 
 
 ## 4. Ví dụ minh hoạ
