@@ -12,7 +12,7 @@
 ---
 
 ## 2. Thông tin bài tập
-- **Tên bài toán**: Knight’s Tour - Bài toán mã đi tuần \
+- **Tên bài toán**: Knight’s Tour - Bài toán mã đi tuần 
 Đề bài  
 Trên bàn cờ NxN, con mã điểm (x, y). Tìm đường đi qua mọi ô đúng 1 lần.  
 Gợi ý:  
@@ -21,17 +21,18 @@ Gợi ý:
 -Nếu đi vào ngõ cụt, quay lui.  
 ---
 ## 3. Hướng giải quyết bài toán
-### a. Phân tích bài toán \
+### a. Phân tích bài toán 
 (Mô tả sơ bộ về bài toán, yêu cầu đầu vào - đầu ra, các ràng buộc nếu có)
 1. Mô tả sơ bộ
 -Bài toán "Mã đi tuần" (Knight’s Tour) là một bài toán cổ điển trong lập trình và toán học. Trên một bàn cờ kích thước 𝑁×𝑁, một quân mã bắt đầu từ một vị trí cho trước và di chuyển theo quy tắc của quân mã trong cờ vua. Nhiệm vụ là tìm một lộ trình sao cho quân mã đi qua tất cả các ô trên bàn cờ đúng một lần.
-2. Đầu vào
+
+3. Đầu vào
 -Số nguyên 𝑁 (kích thước bàn cờ: N×N).
 -Hai số nguyên (x,y) là tọa độ ban đầu của quân mã trên bàn cờ (chỉ số bắt đầu từ 0).
-3. Đầu ra
+5. Đầu ra
 -Nếu tìm được lộ trình thỏa mãn điều kiện, xuất ra một ma trận N×N trong đó số tại ô (i,j) thể hiện thứ tự nước đi của quân mã.
 -Nếu không tìm được lộ trình hợp lệ, thông báo không có lời giải.
-4. Ràng buộc
+6. Ràng buộc
 -Quân mã chỉ được di chuyển theo quy tắc của cờ vua: mỗi nước đi có dạng chữ "L" (có 8 hướng di chuyển hợp lệ).
 -Quân mã không được đi vào ô đã đi qua trước đó.
 -Khi N≥5, bài toán luôn có lời giải (trừ một số trường hợp đặc biệt).
