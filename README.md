@@ -44,8 +44,7 @@ Gợi ý:
 - Quân mã không được đi vào ô đã đi qua trước đó.  
 - Khi N≥5, bài toán luôn có lời giải (trừ một số trường hợp đặc biệt).  
 - Khi N=1, luôn có lời giải (quân mã không cần di chuyển).  
-- Khi N=2, không có lời giải vì mã không thể đi hết bàn cờ.  
-- Khi N=3, chỉ có một số trường hợp có lời giải.  
+- Khi N=2, 3 không có lời giải vì mã không thể đi hết bàn cờ.   
 ### b. Thuật toán/Hướng tiếp cận
 (Mô tả chi tiết cách giải quyết bài toán, có thể kèm theo sơ đồ hoặc giả mã để minh họa)  
 
@@ -98,11 +97,15 @@ Gợi ý:
 ## 4. Ví dụ minh hoạ
 ### Ví dụ 1
 **Input:**  
-(Mô tả input)  
+(Mô tả input)    
+Nhap kich thuoc ban co: 3  
+Nhap vi tri cua quan ma (0 -> 2): 1 1  
 **Output:**  
 (Mô tả output)  
+Khong co loi giai!  
 **Giải thích:**  
-(Mô tả cách giải)
+(Mô tả cách giải)  
+Khi quân mã ở vị trí (1;1) thì nó sẽ không có nước đi hợp lệ nào khác (không thỏa mãn điều kiện trong hàm check) dẫn đến việc Valid = 0. Khi đó, dòng lệnh trong else sẽ được thực hiện và in ra màn hình: Khong co loi giai!
 
 ### Ví dụ 2
 **Input:**  
