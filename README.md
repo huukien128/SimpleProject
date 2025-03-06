@@ -19,9 +19,7 @@ Gợi ý:
 -Đệ quy thử từng nước đi.
 -Nếu thăm hết mọi ô, thành công.
 -Nếu đi vào ngõ cụt, quay lui.
-
 ---
-
 ## 3. Hướng giải quyết bài toán
 ### a. Phân tích bài toán
 (Mô tả sơ bộ về bài toán, yêu cầu đầu vào - đầu ra, các ràng buộc nếu có)
@@ -50,18 +48,18 @@ Gợi ý:
 -Nếu gặp ngõ cụt (tức là không còn nước đi hợp lệ), quay lui (Backtrack) và thử hướng khác.
 2 Giả mã đề minh họa
 Hàm KnightTour(x, y, bước_đi):
-    -Nếu bước_đi = N*N: 
+ -Nếu bước_đi = N*N: 
         → In ra bàn cờ (đã tìm thấy lộ trình)
         → Kết thúc
 
-   - Duyệt qua tất cả 8 nước đi hợp lệ của quân mã:
+ - Duyệt qua tất cả 8 nước đi hợp lệ của quân mã:
         nx = x + dx[i]
         ny = y + dy[i]
 
-   - Nếu (nx, ny) nằm trong bàn cờ và chưa đi qua:
-            Đánh dấu ô (nx, ny) với bước_đi
-            Gọi đệ quy KnightTour(nx, ny, bước_đi + 1)
-            Nếu thành công → Kết thúc
+ - Nếu (nx, ny) nằm trong bàn cờ và chưa đi qua:
+        Đánh dấu ô (nx, ny) với bước_đi
+        Gọi đệ quy KnightTour(nx, ny, bước_đi + 1)
+        Nếu thành công → Kết thúc
 
             Nếu không, hủy dấu ô (nx, ny) (quay lui)
 ## 4. Ví dụ minh hoạ
