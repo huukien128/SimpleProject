@@ -97,31 +97,55 @@ Gợi ý:
 ## 4. Ví dụ minh hoạ
 ### Ví dụ 1
 **Input:**  
-(Mô tả input)    
 Nhap kich thuoc ban co: 3  
 Nhap vi tri cua quan ma (0 -> 2): 1 1  
-**Output:**  
-(Mô tả output)  
+**Output:**    
 Khong co loi giai!  
 **Giải thích:**  
-(Mô tả cách giải)  
-Khi quân mã ở vị trí (1;1) thì nó sẽ không có nước đi hợp lệ nào khác (không thỏa mãn điều kiện trong hàm check) dẫn đến việc Valid = 0. Khi đó, dòng lệnh trong else sẽ được thực hiện và in ra màn hình: Khong co loi giai!
+- Khi quân mã ở vị trí (1;1) thì nó sẽ không có nước đi hợp lệ nào khác (không thỏa mãn điều kiện trong hàm check) dẫn đến việc Valid = 0. Khi đó, dòng lệnh trong else sẽ được thực hiện và in ra màn hình: Khong co loi giai!
 
 ### Ví dụ 2
 **Input:**  
-(Mô tả input)  
-**Output:**  
-(Mô tả output)  
-**Giải thích:**  
-(Mô tả cách giải)
+- Nhap kich thuoc ban co: 5  
+- Nhap vi tri cua quan ma (0 -> 4): 0 0  
+**Output:**
 
+1       20      17      12      3
+
+16      11      2       7       18
+
+21      24      19      4       13
+
+10      15      6       23      8
+
+25      22      9       14      5  
+**Giải thích:**    
+- Đánh dấu ô hiện tại với số bước.
+- Nếu đã đi đủ 25 ô (N²) → In kết quả.
+- Nếu không có nước đi hợp lệ → Quay lui, thử hướng khác.  
+- Kết quả là một hành trình hợp lệ của quân mã, đi qua tất cả ô mà không lặp lại
 ### Ví dụ 3
 **Input:**  
-(Mô tả input)  
+Nhap kich thuoc ban co: 6  
+Nhap vi tri cua quan ma (0 -> 5):1 2  
 **Output:**  
-(Mô tả output)  
+36      21      26      29      2       19
+
+25      30      1       20      7       28
+
+22      35      24      27      18      3
+
+31      12      33      6       15      8
+
+34      23      10      13      4       17
+
+11      32      5       16      9       14
+
 **Giải thích:**  
-(Mô tả cách giải)
+- Đánh dấu ô hiện tại với số bước.
+- Nếu đã đi đủ 36 ô (N²) → In kết quả.
+- Nếu không có nước đi hợp lệ → Quay lui, thử hướng khác.  
+- Kết quả là một hành trình hợp lệ của quân mã, đi qua tất cả ô mà không lặp lại
 
 ---
 
