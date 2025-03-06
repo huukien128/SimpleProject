@@ -13,7 +13,7 @@
 
 ## 2. Thông tin bài tập
 - **Tên bài toán**: Knight’s Tour - Bài toán mã đi tuần \
-Đề bài \  
+Đề bài  
 Trên bàn cờ NxN, con mã điểm (x, y). Tìm đường đi qua mọi ô đúng 1 lần.  
 Gợi ý:  
 -Đệ quy thử từng nước đi.  
