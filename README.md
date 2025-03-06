@@ -1,4 +1,4 @@
-# Báo cáo Bài tập lớn - Nhóm 2
+# Báo cáo Bài tập lớn - Nhóm 1
 
 ## 1. Thông tin nhóm
 | STT | Họ và tên | MSSV | Vai trò |
