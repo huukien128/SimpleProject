@@ -150,7 +150,7 @@ Nhap vi tri cua quan ma (0 -> 5):1 2
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
+[Video báo cáo nhóm 1](#)
 
 ---
 
