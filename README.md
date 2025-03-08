@@ -150,7 +150,7 @@ Nhap vi tri cua quan ma (0 -> 5):1 2
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm 1](#)
+[Video báo cáo nhóm 1](https://www.youtube.com/watch?v=7OZu0q0jHQ0)
 
 ---
 
